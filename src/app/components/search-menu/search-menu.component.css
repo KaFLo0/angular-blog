@@ -1,0 +1,14 @@
+button.btn {
+  letter-spacing: 0.08rem;
+  background-color: #BDFB9E;
+}
+
+button.btn-outline-light:hover {
+  background-color: #DC9EFB;
+  color: #f8f9fa;
+}
+
+::placeholder {
+  font-size: 1.1rem;
+  opacity: .7;
+}
