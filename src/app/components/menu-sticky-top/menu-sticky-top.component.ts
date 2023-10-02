@@ -1,11 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+declare var bootstrap: any;
 
 @Component({
   selector: 'app-menu-sticky-top',
   templateUrl: './menu-sticky-top.component.html',
   styleUrls: ['./menu-sticky-top.component.css']
 })
-export class MenuStickyTopComponent {
+export class MenuStickyTopComponent implements OnInit {
+
+  ngOnInit(): void {
+    // Inicialize os tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  }
 
   githubRedirect():void {
     window.open('https://github.com/KaFLo0', '_blank');

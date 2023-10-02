@@ -8,8 +8,8 @@ import { CategoriesMenuComponent } from './components/categories-menu/categories
 import { SearchMenuComponent } from './components/search-menu/search-menu.component';
 import { LargeCardComponent } from './components/large-card/large-card.component';
 import { MiniCardComponent } from './components/mini-card/mini-card.component';
-import { TopicsComponent } from './components/topics/topics.component';
 import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     SearchMenuComponent,
     LargeCardComponent,
     MiniCardComponent,
-    TopicsComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
