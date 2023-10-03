@@ -1,3 +1,8 @@
 .bg-menu {
-  background-color: #dc9efb;
+  background-color: #BDFB9E;
+  /*#dc9efb*/
+}
+
+.nav-link:hover {
+  color: white;
 }
