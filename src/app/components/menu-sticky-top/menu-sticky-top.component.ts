@@ -9,6 +9,10 @@ declare var bootstrap: any;
 })
 export class MenuStickyTopComponent implements OnInit {
 
+  menuPicture:string="../../../assets/controller2.jpg";
+  menuTitle:string="Angular Blog";
+  menuTitle2:string="Gaming news and much more!";
+
   ngOnInit(): void {
     // Inicialize os tooltips
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
