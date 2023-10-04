@@ -8,6 +8,8 @@ import { Component, Input } from '@angular/core';
 export class LargeCardComponent {
   // Placeholders values for dinamic properties
   @Input()
+  cardId:string="0";
+  @Input()
   cardPicture:string="https://picsum.photos/640/360";
   @Input()
   cardSubtitle:string="Card Categories | Post Date";

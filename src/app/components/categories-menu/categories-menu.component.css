@@ -3,6 +3,10 @@
   /*#dc9efb*/
 }
 
-.nav-link:hover {
+.nav-link {
   color: white;
+}
+
+.nav-link:hover {
+  color: rgb(172, 172, 172);
 }
