@@ -1,27 +1,17 @@
 # Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+### My first project with Angular 👉👈
+  This blog is about games in general, like new releases, gaming news, guides. On this project I focused on making the styles with BootStrap5 framework. <br>
+  I've had a lot of fun (and much more challenges) while developing this blog, ngl the amount of problems I have encountered using BootStrap styling, for example, using tooltips and organizing components in blog pages, took me to spent hours trying to solving alignment and others interface problems. I feel like a learned a lot doing this project.
 
-## Development server
+## To-do list
+- Give more dynamics to all components
+- Change the placeholders properties to something related to the blog theme
+- Add more responsivity to mobile screens
+- And more stuff
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Home-Page prints
 
-## Code scaffolding
+![blog_photo1](https://github.com/KaFLo0/angular-blog/assets/142915648/963c5f5b-fcbe-4dd7-9396-9a3ad42fa37e)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![blog_photo2](https://github.com/KaFLo0/angular-blog/assets/142915648/149f1513-ed7c-4d21-a5ed-b7f6ed309a05)
